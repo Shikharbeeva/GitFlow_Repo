@@ -446,6 +446,37 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаПодчиненных" id="122">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подчиненных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подчиненных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПодчиненныхРасширеннаяПодсказка" id="123"/>
+			<ChildItems>
+				<Button name="СправочникДоговорыОткрытьПоЗначению" id="118">
+					<Type>UsualButton</Type>
+					<CommandName>Catalog.Договоры.StandardCommand.OpenByValue</CommandName>
+					<DataPath>Объект.Ref</DataPath>
+					<ExtendedTooltip name="СправочникДоговорыОткрытьПоЗначениюРасширеннаяПодсказка" id="119"/>
+				</Button>
+				<Button name="СправочникРасчетныеСчетаКонтрагентовОткрытьПоЗначению" id="120">
+					<Type>UsualButton</Type>
+					<CommandName>Catalog.РасчетныеСчетаКонтрагентов.StandardCommand.OpenByValue</CommandName>
+					<DataPath>Объект.Ref</DataPath>
+					<ExtendedTooltip name="СправочникРасчетныеСчетаКонтрагентовОткрытьПоЗначениюРасширеннаяПодсказка" id="121"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="Координаты" id="66">
 			<Title>
 				<v8:item>
