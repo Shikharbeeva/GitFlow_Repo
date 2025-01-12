@@ -446,6 +446,12 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="СправочникДоговорыОткрытьПоЗначению" id="118">
+			<Type>UsualButton</Type>
+			<CommandName>Catalog.Договоры.StandardCommand.OpenByValue</CommandName>
+			<DataPath>Объект.Ref</DataPath>
+			<ExtendedTooltip name="СправочникДоговорыОткрытьПоЗначениюРасширеннаяПодсказка" id="119"/>
+		</Button>
 		<UsualGroup name="Координаты" id="66">
 			<Title>
 				<v8:item>
