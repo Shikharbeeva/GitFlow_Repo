@@ -2162,6 +2162,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Договоры</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Организации</name>
 		<right>
 			<name>Read</name>
